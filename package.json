@@ -10,6 +10,7 @@
     "@paljs/icons": "1.0.5",
     "@paljs/ui": "1.1.1",
     "@tinymce/tinymce-react": "3.12.3",
+    "axios": "^0.21.1",
     "babel-plugin-styled-components": "^1.12.0",
     "next": "^10.2.0",
     "react": "17.0.2",
@@ -24,9 +25,9 @@
   ],
   "license": "MIT",
   "scripts": {
-    "dev": "next",
+    "dev": "next --port 5823",
     "build": "next build",
-    "start": "next start --port ${PORT-3000}",
+    "start": "next start --port ${PORT-3001}",
     "prepare": "husky install"
   },
   "repository": {
